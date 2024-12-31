@@ -1,4 +1,6 @@
- -- Show all customer records
+-- Queries:
+
+-- Show all customer records
 
 SELECT * FROM customers;
 
