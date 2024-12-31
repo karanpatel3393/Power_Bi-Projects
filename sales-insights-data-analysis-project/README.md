@@ -144,6 +144,3 @@ Adding more KPIs and deeper drill-through options.
 
 Incorporating machine learning models for predictive analytics.
 
-Credits
-
-This project is inspired by the Code Basics YouTube Playlist.
