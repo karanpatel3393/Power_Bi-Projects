@@ -26,4 +26,4 @@ The dashboard offers an intuitive way to analyze sales trends and market perform
 ---
 
 ## Dashboard Preview
-![Sales Insight Dashboard](sales-insights-data-analysis-project/sales_insight.png)
+![Sales Insight Dashboard](sales-insights-data-analysis-project/sales_insight.gif)
