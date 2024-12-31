@@ -1,7 +1,6 @@
 # Sales Insight Dashboard using Power BI
 
 ## Project Overview
-
 This project involves building a Power BI dashboard to provide sales insights for AtliQ Hardware, a company that delivers computer hardware and peripherals across India. The goal was to address the challenges faced by the Sales Director in understanding the business's performance and making data-driven decisions.
 
 The project was inspired by the Code Basics YouTube Playlist and aims to showcase the power of visualizing data for better decision-making.
@@ -144,3 +143,6 @@ A Power BI dashboard was developed to:
 
 - Incorporating machine learning models for predictive analytics.
 
+## Dashboard Preview
+![Sales Insight Dashboard](sales_insight.png)
+![Sales Insight Dashboard](sales_insight_1.png)
