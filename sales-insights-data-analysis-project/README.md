@@ -1,146 +1,146 @@
-Sales Insight Dashboard using Power BI
+# Sales Insight Dashboard using Power BI
 
-Project Overview
+## Project Overview
 
 This project involves building a Power BI dashboard to provide sales insights for AtliQ Hardware, a company that delivers computer hardware and peripherals across India. The goal was to address the challenges faced by the Sales Director in understanding the business's performance and making data-driven decisions.
 
 The project was inspired by the Code Basics YouTube Playlist and aims to showcase the power of visualizing data for better decision-making.
 
-Problem Statement
+## Problem Statement
 
 AtliQ Hardware’s sales are declining, and the Sales Director faces difficulties in understanding performance metrics from Excel files. Human inefficiency in consuming numerical data has led to frustration and suboptimal decision-making.
 
-Solution
+## Solution
 
 A Power BI dashboard was developed to:
 
-Convert raw data into visual representations.
+1. Convert raw data into visual representations.
 
-Provide actionable insights to improve sales and profit margins.
+2. Provide actionable insights to improve sales and profit margins.
 
-Empower stakeholders to make data-driven decisions.
+3. Empower stakeholders to make data-driven decisions.
 
-AIMS Grid
+## AIMS Grid
 
-Purpose: To deliver a comprehensive sales insights dashboard.
+- **Purpose:** To deliver a comprehensive sales insights dashboard.
 
-Stakeholders: Sales Director, Regional Managers, Data Analysts.
+- **Stakeholders:** Sales Director, Regional Managers, Data Analysts.
 
-End Result: A Power BI dashboard visualizing sales trends, market performance, customer contributions, and product insights.
+- **End Result:** A Power BI dashboard visualizing sales trends, market performance, customer contributions, and product insights.
 
-Success Criteria:
+## Success Criteria:
 
-Improved understanding of sales performance.
+- Improved understanding of sales performance.
 
-Identification of underperforming regions and products.
+- Identification of underperforming regions and products.
 
-Better-informed decision-making by stakeholders.
+- Better-informed decision-making by stakeholders.
 
-Steps Followed
+## Steps Followed
 
-Project Planning: Used AIMS Grid to define project goals.
+**1. Project Planning:** Used AIMS Grid to define project goals.
 
-Data Retrieval: Used MySQL to extract data from the database into Power BI.
+**2. Data Retrieval:** Used MySQL to extract data from the database into Power BI.
 
-Data Cleaning: Cleaned and prepared data in Power Query.
+**3. Data Cleaning:** Cleaned and prepared data in Power Query.
 
-ETL Process: Extracted, transformed, and loaded data.
+**4. ETL Process:** Extracted, transformed, and loaded data.
 
-Currency Conversion: Standardized all transaction currencies.
+**5. Currency Conversion:** Standardized all transaction currencies.
 
-Data Validation: Ensured data accuracy and consistency.
+**6. Data Validation:** Ensured data accuracy and consistency.
 
-Data Modeling and Visualization: Created relationships and developed interactive visuals.
+**7. Data Modeling and Visualization:** Created relationships and developed interactive visuals.
 
-Customizations
+## Customizations
 
-Replaced the original products table with a self-modified table to resolve ‘(blank)’ issues, adding new products (Prod280 to Prod339).
+- Replaced the original products table with a self-modified table to resolve ‘(blank)’ issues, adding new products (Prod280 to Prod339).
 
-Enhanced the sales_transaction table by merging additional fields such as profit margin and cost price.
+- Enhanced the sales_transaction table by merging additional fields such as profit margin and cost price.
 
-Insights
+## Insights
 
-Revenue and Profit Metrics:
+**1. Revenue and Profit Metrics:**
 
-Total revenue (4 years): ₹985M
+   - **Total revenue (4 years):** ₹985M
 
-Total profit margin: ₹24.7M (2.5%)
+   - **Total profit margin:** ₹24.7M (2.5%)
 
-Total sales quantity: ₹2M
+   - **Total sales quantity:** ₹2M
 
-Market Performance:
+**2. Market Performance:**
 
-Largest market: Delhi NCR (₹520M revenue, 2.3% profit margin).
+   - **Largest market:** Delhi NCR (₹520M revenue, 2.3% profit margin).
 
-Highest profit margin: Bhubaneshwar (10.48% in 2020).
+   - **Highest profit margin:** Bhubaneshwar (10.48% in 2020).
 
-Lowest profit margin: Bengaluru (-20.8%).
+   - **Lowest profit margin:** Bengaluru (-20.8%).
 
-Top Customers:
+**3. Top Customers:**
 
-Electricalsara Stores: ₹413M revenue (4 years).
+   - **Electricalsara Stores:** ₹413M revenue (4 years).
 
-Product Insights:
+**4. Product Insights:**
 
-Top product: Prod318 (₹69M revenue).
+   - **Top product:** Prod318 (₹69M revenue).
 
-Distribution vs Own Brand revenue: ₹494M each.
+   - **Distribution vs Own Brand revenue:** ₹494M each.
 
-Revenue Trends:
+ **5. Revenue Trends:**
 
-Significant decline in June 2020.
+   - Significant decline in June 2020.
 
-Lowest profit margin in April 2020.
+   - Lowest profit margin in April 2020.
 
-Key Learnings
+## Key Learnings
 
-Understanding real-world business datasets.
+- Understanding real-world business datasets.
 
-Writing analytical queries in MySQL.
+- Writing analytical queries in MySQL.
 
-Connecting and transforming data in Power BI.
+- Connecting and transforming data in Power BI.
 
-Practical usage of DAX functions and measures.
+- Practical usage of DAX functions and measures.
 
-Creating analytical visuals and actionable reports.
+- Creating analytical visuals and actionable reports.
 
-Final Result
+## Final Result
 
-Dashboard Features:
+**Dashboard Features:**
 
-KPI Page: Showcasing key metrics like total revenue, profit margins, and sales trends.
+**1. KPI Page:** Showcasing key metrics like total revenue, profit margins, and sales trends.
 
-Market Analysis: Regional breakdown of revenue and profit contributions.
+**2. Market Analysis:** Regional breakdown of revenue and profit contributions.
 
-Customer Insights: Top customers driving revenue.
+**3. Customer Insights:** Top customers driving revenue.
 
-Product Performance: Revenue and profit by product type.
+**4. Product Performance:** Revenue and profit by product type.
 
-Technologies Used
+## Technologies Used
 
-MySQL: Data extraction and analysis.
+**- MySQL:** Data extraction and analysis.
 
-Power BI: Data visualization and dashboard creation.
+**- Power BI:** Data visualization and dashboard creation.
 
-Power Query: Data cleaning and transformation.
+**- Power Query**: Data cleaning and transformation.
 
-DAX (Data Analysis Expressions): Measures and calculations.
+**- DAX (Data Analysis Expressions):** Measures and calculations.
 
-How to Use
+## How to Use
 
-Clone this repository to your local machine.
+- Clone this repository to your local machine.
 
-Open the Power BI file (Sales_Insight_Dashboard.pbix).
+- Open the Power BI file (Sales_Insight_Dashboard.pbix).
 
-Ensure the database connection settings are correctly configured.
+- Ensure the database connection settings are correctly configured.
 
-Explore the interactive dashboard to analyze insights.
+- Explore the interactive dashboard to analyze insights.
 
-Future Improvements
+## Future Improvements
 
-Automating data refresh using Power BI Service.
+- Automating data refresh using Power BI Service.
 
-Adding more KPIs and deeper drill-through options.
+- Adding more KPIs and deeper drill-through options.
 
-Incorporating machine learning models for predictive analytics.
+- Incorporating machine learning models for predictive analytics.
 
