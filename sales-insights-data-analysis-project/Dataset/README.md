@@ -4,8 +4,7 @@
 
 1.  install mysql on your local computer
 
-1. SQL database dump is in db_dump.sql file above. Download `db_dump.sql` file to your local computer and import it as per instructions given in the tutorial video
-
+1. SQL database dump is in db_dump.sql file above. Download `db_dump.sql` file to your local computer and import in MYSQL Workbench or MY SQL Server.
 ### Data Analysis Using SQL
 
 1. Show all customer records
